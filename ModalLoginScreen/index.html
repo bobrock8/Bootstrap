@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Login Screen</title>
+</head>
+<body>
+	<div class="vertical-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="text-center">Modal project</h1>
+					<p class="text-center"><a class="btn btn-primary btn-lg" href="#" data-toggle="modal" data-target="#login-modal" role="button">Login Here</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- Sadrzaj modal-a -->
+	<div class="modal fade" id="login-modal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header text-center">
+					<img src="images/logo.png" class="img-thumbnail" alt="logo">
+				</div>
+				<div id="div-forms">
+					<form>
+						<div class="modal-body">
+							<div>
+								<span>Type your E-mail and password here:</span>
+							</div>
+							<input class="form-control" placeholder="Email" type="text" required>
+							<input class="form-control" placeholder="Password" type="password" required>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> Remember me
+								</label>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<div class="col-sm-6">
+								<button type="submit" class="btn btn-primary btn-md btn-block">Login</button>
+							</div>
+							<div class="col-sm-6">
+								<button type="submit" class="btn btn-primary btn-md btn-block">Sign up</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
