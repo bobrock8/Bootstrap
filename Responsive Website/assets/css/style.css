@@ -15,3 +15,33 @@ html, body {
 #cover-caption{
 	width: 100%;
 }
+
+.backcolor{
+	background-color: #dfe5f5 !important;
+	color:#243151 !important;
+	font-weight: bold;
+}
+
+nav a, nav button {
+color:#243151 !important;
+
+}
+
+nav button, nav input {
+border: 1px solid #243151 !important;
+}
+
+.navbar-toggler {
+	background-color: #243151 !important;
+	color:#243151 !important;
+}
+nav img {
+	width: 200px !important;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
